@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color:antiquewhite
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    
+    font-family: 'Cormorant Garamond','serif';
+    
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    background-color:black;
+    height:65px;
+    color:white;
+}
+
+.brand img{
+    width: 40px;
+    padding:0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+    
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.container{
+    min-height:70vh;
+    background-color: black;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    width: 70%;
+    margin:23px auto;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url(bg.jpg);
+}
+
+.bottom{
+    position:sticky;
+    height:110px;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    bottom: 0;
+}
+
+#myProgressBar{
+    width:80vw;
+    cursor:pointer;
+}
+
+.icons{
+    margin: 15px;   
+}
+
+.icons img{
+    cursor:pointer;
+   
+}
+
+.songItemContainer{
+    margin-top:74px;
+}
+
+
+.songItem{
+height:50px;
+
+display:flex;
+background-color: white;
+color:black;
+margin: 12px 0;
+justify-content:space-between;
+align-items:center;
+border-radius:34px;
+}
+
+
+
+
+.songItem img{
+    width:43px;
+    margin:0 23px;
+    border-radius: 20px;
+    
+}
+
+.songListPlay{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.timestamp{
+    display:flex;
+    
+    
+}
+
+
+
+.timestamp img{
+    margin:0 23px 0 5px;
+    width: 25px;
+    cursor:pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.songInfo img{
+    opacity:0;
+    transition: opacity 0.5s ease-in;
+}
+
+
+    
